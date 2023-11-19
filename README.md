@@ -77,7 +77,7 @@ pinned: false
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 Link to the deployed app: https://huggingface.co/spaces/Ausbel/Time-Series-Forecasting-App2
- 
+# For the gradio app please check the python file above. That is LP2_ Customer_Churn_Prediction_ () (2) (1)
 
 ✨ **Acknowledgments**
 =================
