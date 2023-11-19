@@ -25,9 +25,9 @@ onpromotion= st.number_input(label='Please enter total number of items on promot
 # input dataframe
 ok= st.button('forecast sales')
 if ok:
-input_data= [ds,onpromotion,transactions]
-inputs= pd.DataFrame([input_data],columns=['ds','onpromotion','transactions'])
-# making Prediction
-forecast=model.predict(inputs)
-output_values=forecast['yhat']
-st.success (f'the estimated forecast sales ${output_values.values[0]:.2f}')
+    input_data= [ds,onpromotion,transactions]
+    inputs= pd.DataFrame([input_data],columns=['ds','onpromotion','transactions'])
+    # making Prediction
+    forecast=model.predict(inputs)
+    output_values=forecast['yhat']
+    st.success (f'the estimated forecast sales ${output_values.values[0]:.2f}')
